@@ -1,4 +1,4 @@
-package lesson04.practical;
+package lesson03.practical;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -29,16 +29,21 @@ public static void main(String[] args) {
     weekDay.printDay();
 }
 }
-enum DaysEN{
-    MONDAY("Monday, Понеділок, Montag"),TUESDAY("Tuesday, Вівторок, Dienstag"), WEDNESDAY("Wednesday, Середа, Mittwoch"),
+
+enum DaysEN {
+
+    MONDAY("Monday, Понеділок, Montag"), TUESDAY("Tuesday, Вівторок, Dienstag"), WEDNESDAY("Wednesday, Середа, Mittwoch"),
     THURSDAY("Thursday, Четвер, Donnerstag"), FRIDAY("Friday, П'ятниця, Freitag"),
-    SATURDAY("Saturday, Субота, Samstag"),SUNDAY("Sunday, Неділя, Sonntag");
-     final String s;
-    DaysEN(String name){
-        this.s=name;
+    SATURDAY("Saturday, Субота, Samstag"), SUNDAY("Sunday, Неділя, Sonntag"),;
+    final String s;
+
+    DaysEN(String name) {
+        this.s = name;
     }
-   private static final List<DaysEN> list = Arrays.asList(DaysEN.values());
-    public static String getDay(int i){
-       return list.get(i-1).s;
-   }
+
+    private static final List<DaysEN> list = Arrays.asList(DaysEN.values());
+
+    public static String getDay(int i) {
+        return list.get(i - 1).s;
+    }
 }

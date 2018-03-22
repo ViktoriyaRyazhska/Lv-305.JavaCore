@@ -1,4 +1,4 @@
-package lesson04.practical;
+package lesson03.practical;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -25,9 +25,10 @@ public class Country {
 
     }
 }
- enum Continent
-{
-    AFRICA, ANTARCTICA, ASIA, AUSTRALIA, EUROPE, NORTH_AMERICA, SOUTH_AMERICA;
+
+enum Continent {
+
+    AFRICA, ANTARCTICA, ASIA, AUSTRALIA, EUROPE, NORTH_AMERICA, SOUTH_AMERICA,;
 }
  enum Countries
 {

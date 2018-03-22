@@ -1,10 +1,11 @@
-package lesson03.homework;
+package lesson02.homework;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Person {
+
     private static BufferedReader reader = null;
     private String name;
     private int birthYear;
@@ -24,44 +25,48 @@ public class Person {
     public void setBirthYear(int birthYear) {
         this.birthYear = birthYear;
     }
-    public Person(){
+
+    public Person() {
     }
-    public Person(String name, int birthYear){
-        this.name=name;
-        this.birthYear=birthYear;
+
+    public Person(String name, int birthYear) {
+        this.name = name;
+        this.birthYear = birthYear;
     }
-    int age(int currentYear){
-        return currentYear-getBirthYear();
+
+    int age(int currentYear) {
+        return currentYear - getBirthYear();
     }
-    void input(){
+
+    void input() {
         BufferedReader reader = getInstance();
-        try{
+        try {
             System.out.println("Input the name  :");
             String s = reader.readLine();
-            if(s.matches("[a-zA-Z]+")){
+            if (s.matches("[a-zA-Z]+")) {
                 setName(s);
                 System.out.println("Input year of a birth :");
                 String y = reader.readLine();
-                if(y.matches("\\d+")){
+                if (y.matches("\\d+")) {
                     setBirthYear(Integer.parseInt(y));
-                }
-                else System.out.println("Wrong data(year).");
-            }
-            else System.out.println("Wrong data(name).");
-        }
-        catch (IOException e){
+                } else System.out.println("Wrong data(year).");
+            } else System.out.println("Wrong data(name).");
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
-    void output(){
-        System.out.println("Person name : "+getName()+" .Person age : "+age(2018));
+
+    void output() {
+        System.out.println("Person name : " + getName() + " .Person age : " + age(2018));
     }
-    void changeName(String name){
+
+    void changeName(String name) {
         setName(name);
     }
-    private BufferedReader getInstance(){
-        if(reader==null){
-            reader=new BufferedReader(new InputStreamReader(System.in));
+
+    private BufferedReader getInstance() {
+        if (reader == null) {
+            reader = new BufferedReader(new InputStreamReader(System.in));
         }
         return reader;
     }

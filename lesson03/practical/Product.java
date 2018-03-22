@@ -1,4 +1,4 @@
-package lesson04.practical;
+package lesson03.practical;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -34,7 +34,7 @@ public class Product implements Comparable<Product>{
         List<Product> list = new ArrayList<>();
         list.add(new Product("Apple",12.0,30));
         list.add( new Product("Pear",22.3,50));
-        list.add(new Product("Lemon",20.5,18));
+        list.add(new Product("Lemon", 20.5, 18));
         list.add(new Product("Peach",35.8,24));
         
         Product mostExp = list.stream().max(Product::compareTo).get();
@@ -42,7 +42,6 @@ public class Product implements Comparable<Product>{
         
         Product bQ = list.stream().max(Comparator.comparingInt(Product::getQuantity)).get();
         System.out.println("The biggest quantity item is : "+bQ.getName());
-     
 
 //        Supplier<Stream<Product>> ss = () -> Stream.of(products);
 //        Product mostExp = ss.get().max(Product::compareTo).get(); //Optional<Product> ???
@@ -52,9 +51,6 @@ public class Product implements Comparable<Product>{
 //        Product bQ = ss2.get().max(Comparator.comparingInt(Product::getQuantity)).get();
 //        System.out.println("The biggest quantity item is : "+bQ.getName());
 //        
-
-
-
     }
 
     @Override
