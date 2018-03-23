@@ -2,10 +2,10 @@
 *.class
 
 .idea/
+.idea/*
 /src/
 /target/
-*/.idea/*
-/.idea/*
+
 
 
 # Log file
