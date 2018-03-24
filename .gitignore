@@ -5,6 +5,7 @@
 .idea/*
 /src/
 /target/
+.out/
 
 
 
