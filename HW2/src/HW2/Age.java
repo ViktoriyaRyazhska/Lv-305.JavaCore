@@ -10,10 +10,15 @@ public class Age {
         Person p5 = new Person("Albus",1956);
 
         System.out.println(p1);
+        System.out.println("Age: " + p1.age());
         System.out.println(p2);
+        System.out.println("Age: " + p2.age());
         System.out.println(p3);
+        System.out.println("Age: " + p3.age());
         System.out.println(p4);
+        System.out.println("Age: " + p4.age());
         System.out.println(p5);
+        System.out.println("Age: " + p5.age());
 
 
 
@@ -32,14 +37,15 @@ public class Age {
 
 
         System.out.println(p1);
+        System.out.println("Age: " + p1.age());
         System.out.println(p2.toString());
+        System.out.println("Age: " + p2.age());
         System.out.println(p3.toString());
-        System.out.println(p3.toString());
-        System.out.println(p3.toString());
+        System.out.println("Age: " + p3.age());
+        System.out.println(p4.toString());
+        System.out.println("Age: " + p4.age());
+        System.out.println(p5.toString());
+        System.out.println("Age: " + p5.age());
 
-//        em1.printOn();
-//        em2.printOn();
-//        em3.printOn();
-//        Employee.totalSumma();
-   }
+        }
 }

@@ -1,17 +1,28 @@
 package HW2;
-import java.time.Year;
 import java.util.Calendar;
 
 public class Person {
   private String name;
 private int birthYear;
-private int Year;
-
-    Calendar calendar = Calendar.getInstance();
-    java.time.Year = calendar.get(Calendar.YEAR);
-
-private int age () { return  Year - birthYear;
+private int age;
+//    public static int currentYear()
+//    {
+//        java.util.Calendar calendar = java.util.Calendar.getInstance(java.util.TimeZone.getDefault(), java.util.Locale.getDefault());
+//        calendar.setTime(new java.util.Date());
+//        return calendar.get(java.util.Calendar.YEAR);
+//    }
+public int age () {
+    int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+    return currentYear - birthYear;
 }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
 
     public String getName() {
@@ -35,7 +46,7 @@ private int age () { return  Year - birthYear;
 
     public Person (String name, int birthYear) {
     this.name = name;
-    this. birthYear = birthYear;
+    this.birthYear = birthYear;
     }
 
     public int changeBirthYear(int birthYear) {
@@ -52,7 +63,7 @@ private int age () { return  Year - birthYear;
 
         @Override
         public String toString() {
-            return "Person (name = " + this.name + " birhtday year = " + this.birthYear + ")";
+            return this.name + " birhtday year = " + this.birthYear + ", age " + this.age;
         }
 
 }
