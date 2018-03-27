@@ -8,9 +8,10 @@ public class DogTest {
 
     @Test
     public void name() {
-        Dog dog = new Dog("b",2,Breed.FIRST);
+        Dog dog = new Dog("b",2,Breed.FIRSTBREED);
         String actuacl = dog.s(2);
         String exepted = "22";
         assertEquals(exepted,actuacl);
+
     }
 }
