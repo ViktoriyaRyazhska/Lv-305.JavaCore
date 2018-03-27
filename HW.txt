@@ -5,7 +5,7 @@ Taras Yurychko	        +
 Vladlen Onopko		
 Oleksandr Bezborodov    +	
 Artur Zahorodnyk	
-Kopach Andrii		        +
+Kopach Andrii           +
 Danylo Romanyshyn	
 Viktor Malinochka	
 Iryna Bulych		
