@@ -3,6 +3,7 @@ package lesson02_oop.homework;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.time.Year;
 
 public class Person {
 
@@ -57,7 +58,7 @@ public class Person {
     }
 
     void output() {
-        System.out.println("Person name : " + getName() + " .Person age : " + age(2018));
+        System.out.println("Person name : " + getName() + " .Person age : " + age(Year.now().getValue()));
     }
 
     void changeName(String name) {
@@ -87,7 +88,6 @@ public class Person {
         person4.output();
         person5.input();
         person5.output();
-
     }
 
 }
