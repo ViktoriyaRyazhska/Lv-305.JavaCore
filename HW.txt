@@ -1,15 +1,15 @@
-﻿                       HW3
-                     Classes
+﻿                       HW3     HW4
+                     Classes  Conditin
 Yurii Hii		+
 Taras Yurychko	        +	
 Vladlen Onopko		
-Oleksandr Bezborodov    +	
+Oleksandr Bezborodov    +	      .
 Artur Zahorodnyk	
 Kopach Andrii           +
-Danylo Romanyshyn	
+Danylo Romanyshyn	      +
 Viktor Malinochka	
-Iryna Bulych		
-Taras Stakhovskyi       +	
+Iryna Bulych		        +        .
+Taras Stakhovskyi       +	       .
 Ihor Vrublevs'kyi       +	
 Orest Andrushkiv	
 Dmytro Holiash	        +	
