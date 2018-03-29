@@ -8,29 +8,10 @@ package lesson4.homework;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-
-enum HttpError {
-    BadRequest("Bad Request"), Unauthorized("Unauthorized"), PaymentRequired("Payment Required"), Forbidden("Forbidden"),
-    NotFound("Not Found"), MethodNotAllowed("Method Not Allowed"), NotAcceptable("Not Acceptable"),
-    RequestTimeout("Request Timeout"), ProxyAuthenticationRequired("Proxy Authentication Required");
-
-    String error;
-
-    HttpError(String error) {
-        this.error = error;
-    }
-
-    @Override
-    public String toString() {
-        return super.toString();
-    }
-}
 
 public class App {
 
@@ -120,22 +101,10 @@ public class App {
         System.out.println("Oldest do is: " + oldestDog);
 
         //Check if there is no two dogs with the same name
-        if (twoDogsOneName(dogs)) {
+        if (!Dog.dogsHaveUniqueNames(dogs)) {
             System.out.println("There are two dogs with one name");
         } else {
             System.out.println("All dogs have unique name");
         }
-    }
-
-    private static boolean twoDogsOneName(List<Dog> dogs) {
-        List<String> dogNames = new LinkedList<>();
-        for (Dog dog : dogs) {
-            if (!dogNames.contains(dog.getName())) {
-                dogNames.add(dog.getName());
-            } else {
-                return true;
-            }
-        }
-        return false;
     }
 }
