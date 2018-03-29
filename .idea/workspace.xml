@@ -12,10 +12,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/practical/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
+            <state relative-caret-position="816">
               <caret line="68" column="45" lean-forward="false" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -48,11 +48,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayInteger.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FirstNegative.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/FirstNegative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FiveInteger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/FiveInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TenInteger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/TenInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Month.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/Month.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayInteger.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/practical/ArrayInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -100,8 +140,8 @@
         <option value="$PROJECT_DIR$/lesson03/homework/Task.java" />
         <option value="$PROJECT_DIR$/src/test/java/lesson03/homework/DogTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson03/homework/Dog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson04_arrays/practical/ArrayInteger.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson04_arrays/practical/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson04_arrays/practical/ArrayInteger.java" />
       </list>
     </option>
   </component>
@@ -134,9 +174,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Employee">
+  <component name="RunManager" selected="Application.ArrayInteger">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -346,8 +386,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Employee" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayInteger" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ArrayInteger" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Employee" />
         <item index="2" class="java.lang.String" itemvalue="Application.Dog" />
         <item index="3" class="java.lang.String" itemvalue="Application.UnionIntersect" />
         <item index="4" class="java.lang.String" itemvalue="Application.Bird" />
@@ -385,11 +425,13 @@
       <workItem from="1522330502191" duration="97000" />
       <workItem from="1522330614219" duration="1094000" />
       <workItem from="1522332796943" duration="1652000" />
+      <workItem from="1522334766843" duration="73000" />
+      <workItem from="1522335029911" duration="274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29782000" />
+    <option name="totallyTimeSpent" value="30129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1351" height="1047" extended-state="0" />
@@ -430,9 +472,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson04/practical/ArrayInteger.java" />
-    <entry file="file://$PROJECT_DIR$/lesson03/homework/Task.java" />
-    <entry file="file://$PROJECT_DIR$/lesson03/homework/Task.java" />
     <entry file="file://$PROJECT_DIR$/lesson03/homework/Task.java" />
     <entry file="file://$PROJECT_DIR$/lesson03/practical/OddNum.java" />
     <entry file="file://$PROJECT_DIR$/lesson02/homework/Person.java" />
@@ -483,33 +522,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson03/practical/Country.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson03/homework/Dog.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson04/practical/ArrayInteger.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/TenInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/practical/ArrayInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="40" column="74" lean-forward="false" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/practical/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
+        <state relative-caret-position="816">
           <caret line="68" column="45" lean-forward="false" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -528,6 +543,54 @@
             <element signature="e#1096#1097#0" expanded="true" />
             <element signature="e#1136#1137#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="40" column="74" lean-forward="false" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/FirstNegative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/FiveInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/TenInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/Month.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson04_arrays/practical/ArrayInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
