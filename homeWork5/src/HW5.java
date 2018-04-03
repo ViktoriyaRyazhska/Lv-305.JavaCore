@@ -68,28 +68,41 @@ public class HW5 {
         System.out.println(" is in " + (imin + 1) + " place");
 
 
-
         //4
         System.out.println();
         System.out.println("Homework 5. Task 4.");
         Scanner sc4 = new Scanner(System.in);
 //        int  sc4 = 1;
+        int[] arr4 = new int[100];
         int prod4 = 1;
-        while () {
+
+        for (int i4 = 0; i4 < arr4.length; i4++) {
             System.out.println("Input number");
-           int n4 = Integer.parseInt(sc.nextLine());
-            if (n4 >= 0) {
-                if (n4 % 2 == 0) {
-                    prod4 *= n4;
+            int n4 = Integer.parseInt(sc.nextLine());
+            if (n4 == 0) {
+                System.out.println("You've entered ZERO. Product will be ZERO. Product BEFORE ENTERING ZERO was ");
+                break;
+            } else {
+                if (n4 >= 0) {
+                    if (n4 % 2 == 0) {
+                        prod4 *= n4;
+                    } else {
+                        System.out.println("Odd number not multiplying");
+                    }
+                } else {
+                    System.out.println("You've entered negative. Product is ");
+                    break;
                 }
-                 break;
             }
         }
+
         System.out.println(prod4);
         sc.close();
+    }
 
-        }
 }
+
+
 
 
 
