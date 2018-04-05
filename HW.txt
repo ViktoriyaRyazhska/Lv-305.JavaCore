@@ -1,15 +1,15 @@
-﻿                       HW3     HW4       HW5
-                     Classes  Conditin   Loops
+﻿                       HW3     HW4       HW5    HW6
+                     Classes  Conditin   Loops   OOP
 Yurii Hii		+
-Taras Yurychko	        +                  .	
+Taras Yurychko	        +        +         .      .	
 Vladlen Onopko		
-Oleksandr Bezborodov    +        .
+Oleksandr Bezborodov    +        +
 Artur Zahorodnyk	
 Kopach Andrii           +                  +
 Danylo Romanyshyn       +        +         +
-Viktor Malinochka	
-Iryna Bulych            +        .
+Viktor Malinochka       +        +	              .
+Iryna Bulych            +        .         +
 Taras Stakhovskyi       +        .
-Ihor Vrublevs'kyi       +	       +
-Orest Andrushkiv	
-Dmytro Holiash	        +        +        +
+Ihor Vrublevs'kyi       +	       +         +
+Orest Andrushkiv        +        +	
+Dmytro Holiash	        +        +         +
