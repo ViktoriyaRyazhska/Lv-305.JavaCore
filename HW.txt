@@ -7,7 +7,7 @@ Oleksandr Bezborodov    +        +
 Artur Zahorodnyk	
 Kopach Andrii           +                  +
 Danylo Romanyshyn       +        +         +
-Viktor Malinochka       +        +	              .
+Viktor Malinochka       +        +               .
 Iryna Bulych            +        .         +
 Taras Stakhovskyi       +        .
 Ihor Vrublevs'kyi       +	       +         +
