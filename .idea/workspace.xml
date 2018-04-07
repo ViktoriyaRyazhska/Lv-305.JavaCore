@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="accfee3b-6ce3-4e75-965e-2f39a9f4ea12" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Employee/CalculateAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Employee/ContractEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Employee/SalariedEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/practical/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/practical/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/practical/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/Month.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson04_arrays/homework/Month.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson05_collections/homework/UnionIntersect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson05_collections/homework/UnionIntersect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson05_collections/practical/MyCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson05_collections/practical/MyCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Birds/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Birds/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Birds/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/FlyingBird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Birds/FlyingBird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/NonFlyingBird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Birds/NonFlyingBird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Birds/Penguin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Swallow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Birds/Swallow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-    </list>
+    <list default="true" id="accfee3b-6ce3-4e75-965e-2f39a9f4ea12" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,13 +24,15 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Employee/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="578">
+              <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
               <folding>
                 <element signature="e#250#251#0" expanded="true" />
                 <element signature="e#283#284#0" expanded="true" />
                 <element signature="e#335#336#0" expanded="true" />
                 <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
                 <element signature="e#561#571#0" expanded="true" />
                 <element signature="e#853#854#0" expanded="true" />
                 <element signature="e#937#938#0" expanded="true" />
@@ -208,16 +189,6 @@
               <item name="JavaCore305" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lv-305.JavaCore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson06_inheritance" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="Employee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaCore305" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Lv-305.JavaCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -306,7 +277,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -315,9 +285,9 @@
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28329572" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28329572" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -605,13 +575,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson06_inheritance/homework/Employee/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="578">
+          <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
           <folding>
             <element signature="e#250#251#0" expanded="true" />
             <element signature="e#283#284#0" expanded="true" />
             <element signature="e#335#336#0" expanded="true" />
             <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
             <element signature="e#561#571#0" expanded="true" />
             <element signature="e#853#854#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
