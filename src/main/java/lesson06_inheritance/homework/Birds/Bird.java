@@ -1,4 +1,4 @@
-package lesson06_inheritance.homework;
+package lesson06_inheritance.homework.Birds;
 
 import java.util.ArrayList;
 import java.util.List;

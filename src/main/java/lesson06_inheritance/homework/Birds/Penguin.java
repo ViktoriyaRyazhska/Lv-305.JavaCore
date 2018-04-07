@@ -1,4 +1,4 @@
-package lesson06_inheritance.homework;
+package lesson06_inheritance.homework.Birds;
 
 public class Penguin extends NonFlyingBird {
     @Override
