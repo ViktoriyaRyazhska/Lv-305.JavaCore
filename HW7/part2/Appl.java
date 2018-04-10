@@ -19,16 +19,24 @@ public class Appl {
 		personMap.put("Stepanova", "Olya");
 		personMap.put("Fedorenko", "Maria");
 		System.out.println(personMap);
-
+		
+		System.out.println();
+		
+		int a = 0;
 		HashMap<String, String> copy = new HashMap<String, String>(personMap);
 		for (Map.Entry<String, String> pair : copy.entrySet()) {
 			int freqeuncy = Collections.frequency(copy.values(), pair.getValue());
 			if (freqeuncy > 1) {
-				System.out.println("true");
-			} else
-				System.out.println("false");
+				a++;
+			}
 		}
-
+		if (a > 1) {
+			System.out.println("There are at least two person with the same name. ");
+		} else
+			System.out.println("Thera are no persons with the same name");
+		
+		System.out.println();
+		
 		String name = "Orest";
 		if (personMap.containsValue(name)) {
 			Iterator iterator = personMap.entrySet().iterator();
@@ -39,8 +47,7 @@ public class Appl {
 				}
 			}
 		}
-		
-		
+
 		System.out.println(personMap);
 
 	}
