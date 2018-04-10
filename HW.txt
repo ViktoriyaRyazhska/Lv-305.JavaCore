@@ -10,6 +10,6 @@ Danylo Romanyshyn       +        +         +
 Viktor Malinochka       +        +                .
 Iryna Bulych            +        .         +      .
 Taras Stakhovskyi       +        .
-Ihor Vrublevs'kyi       +	       +         +
+Ihor Vrublevs'kyi       +        +         +
 Orest Andrushkiv        +        +	
 Dmytro Holiash	        +        +         +     +
