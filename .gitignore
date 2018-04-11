@@ -22,5 +22,12 @@
 hs_err_pid*
 /bin/
 .classpath
+<<<<<<< HEAD
 /.metadata/
 /.recommenders/
+=======
+.idea
+.project
+
+
+>>>>>>> 53d13bb789185e5a0549f691f2b4c87b905f2c92
