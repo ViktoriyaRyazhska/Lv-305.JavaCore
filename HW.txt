@@ -6,8 +6,8 @@ Vladlen Onopko          +        +         +      +       +
 Oleksandr Bezborodov    +        +
 Artur Zahorodnyk	
 Kopach Andrii           +                  +
-Danylo Romanyshyn       +        +         +
-Viktor Malinochka       +        +                .
+Danylo Romanyshyn       +        +         +              .
+Viktor Malinochka       +        +         +      .
 Iryna Bulych            +        .         +      .
 Taras Stakhovskyi       +        .
 Ihor Vrublevs'kyi       +        +         +
