@@ -1,9 +1,7 @@
 package l9;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+
 
 public class Mapa {
 	public static void main(String[] args) {
@@ -24,5 +22,25 @@ public class Mapa {
 
         set1.addAll(map.values());
         System.out.println(map.values().size()>set1.size());
-    }
-}
+    
+        /*for (Iterator<Map.Entry<String, String>> it = map.entrySet().iterator();
+        		it.hasNext(); ) {
+        	Map.Entry<String, String> entry = it.next();
+        	if (entry.getKey().equals("Oleh")) { it.remove();}
+*/        		
+        Iterator iterator = map.entrySet().iterator();
+        while(iterator.hasNext()){
+           Map.Entry<String, String> entry = (Map.Entry<String, String>) iterator.next();
+           if (entry.getValue().equals("Oleh")) {
+        	System.out.println(entry.getKey() + " ");
+           }
+           
+        }
+
+        
+        }
+        	
+        
+	}
+		
+
