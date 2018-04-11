@@ -1,4 +1,4 @@
-﻿                       HW3     HW4       HW5    HW6     HW7      HW8
+﻿                       HW3     HW4       HW5    HW6     HW7       HW8
                      Classes  Condition  Loops   OOP Collections String
 Yurii Hii		+
 Taras Yurychko	        +        +         .      .       +	
