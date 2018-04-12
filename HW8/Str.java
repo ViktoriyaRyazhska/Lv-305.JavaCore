@@ -27,14 +27,9 @@ public class Str {
 			System.out.println(rev.reverse());
 			
 		}
-//      2)	
+//     		2)	
 		String tabStr = "I    am      learning     Java   Core";
-		String pattern = "[a-zA-Z]+";
-		Pattern p = Pattern.compile(pattern);
-	    Matcher m = p.matcher(tabStr);
-	    while(m.find()) {
-	    	System.out.print(tabStr.substring(m.start(), m.end()) + " ");
-	    }
+		System.out.println(tabStr.replaceAll(" {2,}"," "));
 //		3)
 		String dig = "$21425.4242";
 		String pat = "\\$(\\d*)(\\.\\d{2})";
