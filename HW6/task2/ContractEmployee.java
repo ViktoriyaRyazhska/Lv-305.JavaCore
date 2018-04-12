@@ -1,24 +1,24 @@
 package task2;
 
 public class ContractEmployee extends Employee implements CalculatePay {
-    private String federalTaxIdmember;
+    private String federalTaxIdMember;
     private double hoursWorked;
     private double hourlyRate;
 
 
     public ContractEmployee(String employeeId, String name, String federalTaxIdmember, double hoursWorked, double hourlyRate) {
         super(employeeId, name);
-        this.federalTaxIdmember = federalTaxIdmember;
+        this.federalTaxIdMember = federalTaxIdmember;
         this.hoursWorked = hoursWorked;
         this.hourlyRate = hourlyRate;
     }
 
     public String getFederalTaxIdmember() {
-        return federalTaxIdmember;
+        return federalTaxIdMember;
     }
 
     public void setFederalTaxIdmember(String federalTaxIdmember) {
-        this.federalTaxIdmember = federalTaxIdmember;
+        this.federalTaxIdMember = federalTaxIdmember;
     }
 
     public double getHoursWorked() {
