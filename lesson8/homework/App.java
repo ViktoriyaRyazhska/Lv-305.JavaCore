@@ -46,8 +46,8 @@ public class App {
             System.out.println("Longest word: " + longestWord);
             System.out.println("Longest word size: " + longestWord.length());
             if (words.length >= 2) {
-                System.out.println("Second word: " + words[2]);
-                System.out.println("Second word (reverse): " + new StringBuilder(words[2]).reverse().toString());
+                System.out.println("Second word: " + words[1]);
+                System.out.println("Second word (reverse): " + new StringBuilder(words[1]).reverse().toString());
             }
         } catch (IOException e) {
             System.out.println(e.toString());
