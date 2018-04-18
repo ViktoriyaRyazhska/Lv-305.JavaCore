@@ -11,5 +11,5 @@ Viktor Malinochka       +        +         +      .                 .
 Iryna Bulych            +        .         +      .
 Taras Stakhovskyi       +        .
 Ihor Vrublevs'kyi       +        +         +
-Orest Andrushkiv        +        +         +      +	
+Orest Andrushkiv        +        +         +      +       +	
 Dmytro Holiash	        +        +         +      +       +          +      +
