@@ -1,0 +1,1 @@
+lines in text :3. Longest line: My birthday is on 01/01/1900. Name : name is Vladlen Birthday : 01/01/1900
