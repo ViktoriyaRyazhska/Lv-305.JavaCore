@@ -1,0 +1,3 @@
+Number of lines: 4
+Longest line: Nowadays i learn Java. It is a very powerful programing language. And it is very interesting.
+My name is: Igor and I was born 7-th of September 1996
