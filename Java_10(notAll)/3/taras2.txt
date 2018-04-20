@@ -1,0 +1,3 @@
+Number of line in taras.txt     =    13
+The longes line is : qwerqwerqwerqwer
+Bob date birthday 04.16.1985
