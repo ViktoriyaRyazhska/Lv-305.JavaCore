@@ -1,4 +1,4 @@
-package edu.homework_inheritace;
+package edu.homework_inheritace.Task1_Birds;
 
 public class Appl {
     public static void main(String[] args) {
