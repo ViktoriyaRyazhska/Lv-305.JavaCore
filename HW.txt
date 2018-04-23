@@ -1,15 +1,15 @@
 ﻿                       HW3     HW4       HW5    HW6     HW7       HW8    HW9      HW10  
                      Classes  Condition  Loops   OOP Collections String Exception  Files
-Yurii Hii               +        +         +      .                 +
-Taras Yurychko	        +        +         .      .       +	
+Yurii Hii               +        +         +      +                 +
+Taras Yurychko	        +        +         .      .       +         .       .        .	
 Vladlen Onopko          +        +         +      +       +         +       +        +		
 Oleksandr Bezborodov    +        +         +      .   
 Artur Zahorodnyk	
-Andrii Kopach           +                  +              +         +       +
+Andrii Kopach           +                  +              +         +       +        +
 Danylo Romanyshyn       +        +         +              .         .       +
-Viktor Malinochka       +        +         +      .                 .
+Viktor Malinochka       +        +         +      .                 +
 Iryna Bulych            +        .         +      .
 Taras Stakhovskyi       +        .
-Ihor Vrublevs'kyi       +        +         +
-Orest Andrushkiv        +        +         +      +       +	
-Dmytro Holiash	        +        +         +      +       +          +      +
+Ihor Vrublevs'kyi       +        +         +      +       +         .                 +
+Orest Andrushkiv        +        +         +      +       +	        +      +
+Dmytro Holiash	        +        +         +      +       +         +      +
