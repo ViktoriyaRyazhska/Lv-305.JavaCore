@@ -29,10 +29,10 @@ public class App {
     }
 
     private static void printMenu(Task[] tasks) {
-        System.out.println("Please select task number");
         for (int i = 0; i < tasks.length; i++) {
             System.out.println((i + 1) + ") " + ((tasks[i] != null) ? tasks[i].getTask() : "empty"));
         }
+        System.out.println("\n===========\nPlease select task number:");
     }
 
     private static Task[] init() {
