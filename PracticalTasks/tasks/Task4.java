@@ -1,22 +1,37 @@
-/*Input string and check if this string is palindrome (e.g. “ABCCBA”)*/
+/*
+ * Copyright (c) 2018. RedEye Corp.
+ * Class created by Ckpe4
+ */
 
+package lesson13.tasks;
 
-public class Task2 {
+import lesson13.Task;
 
-    String str= "aaaa AAAA DFASZCB ;lkjl;k ";
+import java.io.BufferedReader;
+import java.io.IOException;
 
-    public static void main(String[] args) {
-        for (int i = 0; i < str.length(); i++) {
+public class Task4 implements Task {
+    private final String task = "Input string and check if this string is palindrome (e.g. “ABCCBA”)";
 
-            if(Character.isUpperCase(str.charAt(i))){
-                System.out.println(str.charAt(i));
+    @Override
+    public void execute(BufferedReader bufferedReader) {
+        System.out.println("\n=============\n" + task);
+        System.out.println("Input your string: ");
+        try {
+            String str = bufferedReader.readLine();
+            System.out.println();
+            for (int i = 0; i < str.length(); i++) {
+                if (Character.isUpperCase(str.charAt(i))) {
+                    System.out.print(str.charAt(i));
+                }
             }
-
-
+        } catch (IOException e) {
+            System.out.println("Error");
         }
+    }
 
-
-
-
-
-
+    @Override
+    public String getTask() {
+        return task;
+    }
+}
