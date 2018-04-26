@@ -1,6 +1,7 @@
-import java.io.BufferedReader;
+/**
+ * 
+ */
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Task3 {
@@ -10,29 +11,23 @@ public class Task3 {
 	public static void main(String[] args) throws IOException {
 		sc = new Scanner(System.in);
 
-		
-
 		System.out.println("Input USD rate");
 		double usdRate = Double.parseDouble(sc.nextLine());
 
-		System.out.println("Input UHY Sum");
+		System.out.println("Input UAH Sum");
 		double uhySum = Double.parseDouble(sc.nextLine());
+
 		
-//		int usdSum = Integer.parseUnsignedInt(uhySum / usdRate);
 		int usdSum = (int) (uhySum / usdRate);
-		
+
 		System.out.print("You can buy " + usdSum + " USD");
-		 double uhyChange = uhySum - (usdSum * usdRate);
-		 
-			System.out.print(" and change is " + uhyChange + " UAH");
-		 
-		
-		//double uhyChange = %(usd)
-		
+		double uhyChange = uhySum - (usdSum * usdRate);
+
+		System.out.print(" and change is " + uhyChange + " UAH");
+
 		
 
-		// 3. Input cost of dollar and sum of money in gryvna. Calculate how many
-		// dollars user can buy and change.
+		
 
 	}
 }
