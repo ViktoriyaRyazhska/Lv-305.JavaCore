@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.util.Random;
 
-public class Task9 {
+public class Task9 implements Task{
 	private final String task = "\tcalculating how many times were number one";
 
 	@Override

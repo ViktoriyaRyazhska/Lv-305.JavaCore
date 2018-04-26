@@ -14,7 +14,7 @@ public class Task7 implements Task {
 
     @Override
     public void execute(BufferedReader bufferedReader) {
-
+  
     }
 
     @Override
