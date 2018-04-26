@@ -13,9 +13,9 @@ public class Task12 implements Task {
 	public void execute(BufferedReader bufferedReader) {
 		System.out.println("\n=============\n" + task);
 		int sum = 0;
-		for (int i = 1; i < 1001; i++) {
+		for (int i = 1; i < 1000; i++) {
 			if ((i % 3 == 0) || (i % 5 == 0)) {
-				sum += 1;
+				sum += i;
 			}
 		}
 		System.out.println("Sum: " + sum);
