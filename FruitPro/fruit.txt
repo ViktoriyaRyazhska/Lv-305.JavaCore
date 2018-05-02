@@ -1,0 +1,7 @@
+Chose fruit: 
+ 1.Banana 
+ 2.Orange 
+ 3.Lemon 
+ 4.Apple
+ 5.Pineapple 
+
