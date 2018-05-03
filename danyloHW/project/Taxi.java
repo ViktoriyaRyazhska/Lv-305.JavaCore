@@ -21,9 +21,9 @@ public class Taxi extends Main {
 		if (startTimeAsDate.after(peakTimeStart) && startTimeAsDate.before(peakTimeEnd)) {
 			return 2d;
 		} else if (startTimeAsDate.after(nightStart) && startTimeAsDate.before(nightEnd)) {
-			return 2.4d;
+			return 7.4d;
 		} else {
-			return 1.6d;
+			return 5.6d;
 		}
 
 	}
